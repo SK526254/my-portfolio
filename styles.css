@@ -93,6 +93,10 @@ a{
 }
 
 #arrange{
-    height: 400px;
-    width: 438px;
+    height: 380px;
+    width: 330px;
+    border-radius: 5%;
+    
+    border-color: black;
+    border-style:inherit;
 }
