@@ -11,7 +11,10 @@ body {
     background-color: #242424;
 
 }
-
+.card-img-top {
+    width: 50%;
+    margin: 1% auto;
+}
 .navbar-brand {
     display: flex;
     padding: 0.5rem;
