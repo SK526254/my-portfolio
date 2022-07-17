@@ -23,6 +23,8 @@
   <!-- Additional Fonts -->
   <link rel="stylesheet"
     href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css" />
+<!-- javascript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 
 </head>
@@ -31,6 +33,7 @@
   <!-------------------------------- NAVBAR---------------------------------- -->
   <div class="navbar navbar-dark fixed-top" id="sideNav">
     <div class="navbar-brand">
+      
       <img class="img-fluid img-profile mb-3" src="avatar1.png" alt="Profile Picture" />
       <div class="text-center" id="navbarSupportedContent">
         <ul class="navbar-nav d-block">
@@ -87,13 +90,14 @@
           </ul>
         </div>
       </div>
+      
     </div>
   </div>
 
-  <!---------------------------- ABOUT-SECTION--------------------------- -->
   <div class="content">
+    <!---------------------------- ABOUT-SECTION--------------------------- -->
     <section class="resume-section p-5" id="about">
-      <img id="arrange" class="img-thumbnail" src="avatar1.jpg" alt="Profile Picture" />
+      <img id="about-image" class="img-thumbnail" src="avatar1.jpg" alt="Profile Picture" />
 
       <h1 class="mb-3 mt-5">
         SAI
@@ -318,18 +322,21 @@
           possible.
         </p>
 
-        <form class="contact-form" action="" method="post"  >
+        <form action="https://formsubmit.co/saikiransk526254@gemail.com"
+        method="POST" class="contact-form"
+        enctype="multipart/form-data"
+        name="EmailForm">
           <div class="form-group">
             <input type="name" class="form-control" placeholder="Name" name="name" required />
           </div>
           <div class="form-group">
             <input type="email" class="form-control" placeholder="Email" name="mail" required />
           </div>
-
           <div class="form-group">
             <textarea class="form-control" type="text" placeholder="Message" rows="7" name="text" required></textarea>
           </div>
-            <button type="submit" class="btn btn-submit">Submit</button>
+            <button type="submit" value="submit" class="btn btn-submit">Submit</button>
+            <input type="hidden" name="_captcha" value="false">
         </form>
       </div>
     </section>
@@ -337,5 +344,4 @@
   </div>
 
 </body>
-
 </html>

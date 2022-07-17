@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: "Barlow Condensed", sans-serif;
     color: #242424;
@@ -30,6 +34,9 @@ h1, .mobile-name {
     padding: 0.5rem;
     flex-flow: column;
 }
+.navbar-toggler {
+    display: none;
+}
 
 
 .img-profile {
@@ -42,14 +49,11 @@ h1, .mobile-name {
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 18rem;
+    width: fit-content;
     height: 100vh;
     place-content: center;
 }
-#sideNav {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-}
+
 
 /* -----------experience section -------------------*/
 
@@ -66,19 +70,16 @@ h1, .mobile-name {
 }
 
 
-.mobile-name {
-    font-family: "Just Another Hand", cursive;
-    font-size: 7.5rem;
-    letter-spacing: 0.1rem;
-}
 
 
 /*------------------ about -------------------- */
 
 .content {
     padding-left: 18rem;
+    width: 100%;
 }
-#arrange{
+
+#about-image{
     height: 380px;
     width: 330px;
     border-radius: 5%;
@@ -115,3 +116,11 @@ background-color: #1873cde0;
 
 
 /* -------------------------------------MEADIA QUERIES--------------------------------------------- */
+@media screen and (max-width:800px) {
+
+    .img-profile {
+        display: none;
+    }
+
+    
+}
