@@ -104,13 +104,11 @@ h1, .mobile-name {
     font-weight: 700;
     letter-spacing: 0.1rem;
     color: white;
+    background-color: #1605eee0;
     width: 50%;
     border: none;
 }
-.progress-bar,
-.btn {
-background-color: #1873cde0;
-}
+
 
 
 
