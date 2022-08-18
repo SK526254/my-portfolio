@@ -9,12 +9,47 @@ body {
     background-color: white;
     text-align: center;
     font-size: 1.4rem;
+}
+.bg-text {
+    box-sizing: border-box;
+    font-size: 40vmax;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.15;
+    z-index: 0;
+    /* font-weight: 900; */
+}
+.k {
+    position: absolute;
+    top: 20px;
+    margin: 0 auto 0 15%;
+   
 
 }
-.background-text {
-    font-size: 20vw;
-    
+.i {
+    position: absolute;
+    top: calc(1*670px);
+    margin: 0 auto 0 15%;
+   
 }
+.r {
+    position: absolute;
+    top: calc(2*670px);
+    margin: 0 auto 0 15%;
+   
+}
+.a {
+    position: absolute;
+    top: calc(3*670px);
+    margin: 0 auto 0 15%;
+   
+}
+.n {
+    position: absolute;
+    top: calc(4*670px);
+    margin: 0 auto 0 15%;
+   
+}
+
 
 a{
     color: #1873cde0;
@@ -31,7 +66,7 @@ h1, .mobile-name {
 
 /* -----------------------navigation bar --------------------- */
 .navbar {
-    background-color: #242424;
+    background-color: #100720;
 
 }
 .navbar-brand {
@@ -49,7 +84,6 @@ h1, .mobile-name {
     max-height: 12rem;
     border: 0.3rem solid #1873cde0;
     border-radius: 100%;
-
 }
 #sideNav {
     text-align: center;
@@ -63,6 +97,10 @@ h1, .mobile-name {
 
 /* -----------experience section -------------------*/
 
+#experience {
+    position: relative;
+    z-index: -1;
+}
 .card{
     border: none;
 }
@@ -74,8 +112,14 @@ h1, .mobile-name {
 .resume-section {
     padding-top: 3rem !important;
 }
-
-
+#education {
+    position: relative;
+    z-index: -1;
+}
+#certificates {
+    position: relative;
+    z-index: -1;
+}
 
 
 /*------------------ about -------------------- */
@@ -89,14 +133,9 @@ h1, .mobile-name {
     height: 380px;
     width: 330px;
     border-radius: 5%;
-    box-shadow:5px 10px 8px 10px #888888;
-
+    
     border-color: black;
     border-style:inherit;
-}
- .text-shadow{
-  text-shadow:5px 10px 8px #888888;
-
 }
 /* ----------------------contact ---------------------------- */
 .contact-form {
@@ -122,7 +161,10 @@ h1, .mobile-name {
 .btn {
 background-color: #1873cde0;
 }
-
+#contact {
+    background-color: #100720;
+    color: #fff;
+}
 
 
 
@@ -133,5 +175,5 @@ background-color: #1873cde0;
         display: none;
     }
 
-
+    
 }
