@@ -9,6 +9,11 @@ body {
     background-color: white;
     text-align: center;
     font-size: 1.4rem;
+
+}
+.background-text {
+    font-size: 20vw;
+    
 }
 
 a{
@@ -44,6 +49,7 @@ h1, .mobile-name {
     max-height: 12rem;
     border: 0.3rem solid #1873cde0;
     border-radius: 100%;
+
 }
 #sideNav {
     text-align: center;
@@ -83,9 +89,14 @@ h1, .mobile-name {
     height: 380px;
     width: 330px;
     border-radius: 5%;
-    
+    box-shadow:5px 10px 8px 10px #888888;
+
     border-color: black;
     border-style:inherit;
+}
+ .text-shadow{
+  text-shadow:5px 10px 8px #888888;
+
 }
 /* ----------------------contact ---------------------------- */
 .contact-form {
@@ -122,5 +133,5 @@ background-color: #1873cde0;
         display: none;
     }
 
-    
+
 }
