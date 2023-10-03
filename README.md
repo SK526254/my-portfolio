@@ -29,6 +29,7 @@ My portfolio website is a comprehensive showcase of my skills, expertise, and ac
 
 - HTML
 - CSS
+- JavaScript
 
 
 ## License
